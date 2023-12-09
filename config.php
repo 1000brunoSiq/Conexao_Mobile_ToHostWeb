@@ -1,10 +1,10 @@
 <?php
 
-$DBHost = 'https://databases-auth.000webhost.com/index.html?route=/database/structure&db=id21482081__databaseconmobile_';
+$DBHost = 'roundhouse.proxy.rlwy.net';
 // $DBHost = 'localhost';
-$DBUsername = 'conexaomobile';
-$DBPassword = '_databaseConMobile_';
-$DBName = ' id21482081_databaseconmobile';
+$DBUsername = 'root';
+$DBPassword = 'AhdaAE-D2eCA6fcHA-215AE3d5GfDfEg';
+$DBName = ' railway';
 // $DBName = '_databasecm_';
 
 $conexao = new mysqli($DBHost, $DBUsername, $DBPassword, $DBName);
